@@ -1,0 +1,53 @@
+.general-info-container {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.general-info-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.general-info-container input[type="text"],
+.general-info-container input[type="tel"],
+.general-info-container input[type="email"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.general-info-container button {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.general-info-container p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+
+.general-info-container strong {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.general-info-container button[type="button"] {
+    background-color: black;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
